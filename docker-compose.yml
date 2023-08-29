@@ -9,7 +9,7 @@ services:
       POSTGRES_USER: cafe
       POSTGRES_DB: cafe
     ports:
-      - "5433:5432"
+      - "5420:5432"
 
 volumes:
   db-data:
